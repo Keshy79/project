@@ -1,0 +1,201 @@
+@media (max-width:736px) {
+    .inp-holder{
+        width: 75vw;
+    }
+    
+    .container-fluid{
+        padding: 0px !important;
+    }
+    .backimg{
+        background-image: none;
+        background-size: cover;
+        margin-top: -25px !important; 
+    
+    }
+    .no-padding{
+        padding: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin: 0px !important;
+    }
+    #nav-sign {
+        width: 100%;
+    }
+    
+    #search{
+        
+        margin-top: -30px;
+        margin-left: 200px;
+ 
+    }
+    #join{
+        display: none;
+    }
+    #time{
+        max-width: 100%;
+        height: 800px;
+    }
+    #sign-up{
+        display: none;
+    }
+    #down {
+        color: black;
+    }
+    /* #fick{
+        height: 30px;
+        width: 500px;
+    } */
+
+    
+#fick {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+
+    /* opacity: 0.6; */
+}
+#buttonA{
+   
+    /* margin-left: 150px; */
+    margin-top: 0px;
+}
+#logg{
+    margin-top: -70px;
+    border: 2px solid white;
+}
+    #photo{
+        display: none;
+    }
+    
+    .heed{
+      height: 80%;
+    }
+    #flogo{
+        width: 50px;
+        margin-left: -120px;
+       
+    }
+    
+
+    .dark {
+        position: absolute;
+        bottom: 200px;
+        left: 0%;
+        top: 50%;
+        color: white;
+        z-index: 100;
+        text-align: center;
+        /* transform: translateY(30px); */
+
+        }
+        .dark button{
+            transform: translateY(-100px);
+        }
+        .dark h1{
+            font-size: 60px;
+            /* text-align: center; */
+            padding-left: 30px;
+            /* transform: translateY(-100px); */
+        }
+        
+        
+        #start{
+            margin-left: 50px;
+          margin-bottom: -300px !important;
+           
+
+        }
+    #space{
+        margin-right:50px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        /* border: 2px solid red; */
+        justify-content: space-between;
+        /* padding: 40px, 10px; */
+        height: 100%;
+        margin-left: -280px;
+    }
+    #space a{
+        border-bottom: 1px solid rgb(69, 64, 64);
+        width: 420%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 40px, 10px; */
+        height: 50vh;
+    }
+    #blue{
+        display: none;
+    }
+    .input{
+        position: absolute;
+        background-color: white;
+        height: 95%;
+        width: 100%;
+        transform: translate(0px, -0px);
+        /* border-radius: 5px; */
+    }
+    #list{
+        /* margin-top: -150px;
+        position: absolute;
+        left: 200px; */
+        bottom: -10px;
+        right: 20px;
+        color: black;
+    }
+    #list a{
+        color: black;
+    }
+    #list-eng{
+        color: black;
+    }
+    .Henry {
+        /* position: absolute;
+        margin-top: -40px;
+        color: white;
+        margin-left: 1020px; */
+        display: none;
+    }
+    .Henry-sec{
+        display: none;
+    }
+    #down1{
+        display: none;
+    }
+    #down{
+        display: none;
+    }
+    #term{
+      
+        margin-left: 160px;
+    }
+    .caro-displaying{
+        margin-top: -45px;
+        margin-left: 120px;
+
+        display: flex;
+
+    }
+    .connect{
+        display: block;
+    }
+    #face{
+        height: 30px;
+        /* gap: 20px; */
+        display: flex;
+     }
+    .rat{
+       /* border: 2px solid red;  */
+     margin-top:120px !important;
+    margin-right: 30px;
+    }
+    #footerIcon{
+        display: flex;
+    }
+}
