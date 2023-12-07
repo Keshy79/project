@@ -1,8 +1,14 @@
 @media (max-width:736px) {
+    body {
+        overflow: hidden;
+    }
+    
     .inp-holder{
         width: 75vw;
     }
-    
+    body{
+        overflow: hidden;
+    }
     .container-fluid{
         padding: 0px !important;
     }
@@ -39,13 +45,12 @@
         display: none;
     }
     #down {
+        margin-left: -450px;
         color: black;
     }
-    /* #fick{
-        height: 30px;
-        width: 500px;
-    } */
-
+    .he {
+        color: black !important;
+    }
     
 #fick {
     z-index: 2;
@@ -165,15 +170,22 @@
     .Henry-sec{
         display: none;
     }
-    #down1{
-        display: none;
+
+    .Henry-sec{
+        
+        display: block;
     }
-    #down{
-        display: none;
+    
+    
+    
+    .up {
+        font-size: 13px;
+    }
+    .member {
+        font-size: 13px;
     }
     #term{
-      
-        margin-left: 160px;
+        margin-left: 0px;
     }
     .caro-displaying{
         margin-top: -45px;
@@ -182,6 +194,10 @@
         display: flex;
 
     }
+ .lish {
+    color: black;
+ }
+ 
     .connect{
         display: block;
     }
